@@ -3,6 +3,10 @@
 #include <algorithm>
 using namespace std;
 
+// Given two sorted arrays of size n and m respectively, find their union. 
+// The Union of two arrays can be defined as the common and distinct elements in the two arrays. 
+// Return the elements in sorted order.
+
 vector<int> unionArray(vector<int> arr1, vector<int> arr2, int n, int m){
     int i = 0, j = 0;
     vector<int> ans;

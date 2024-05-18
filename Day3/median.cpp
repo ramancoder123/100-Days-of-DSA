@@ -3,6 +3,9 @@
 #include <algorithm>
 using namespace std;
 
+// Given two sorted arrays array1 and array2 of size m and n respectively. 
+// Find the median of the two sorted arrays.
+
 double median(vector<int>& arr1, vector<int>& arr2, int n, int m){
     int i = 0;
     int j = 0;
