@@ -4,6 +4,9 @@
 
 using namespace std;
 
+// Given two sorted arrays arr1 and arr2 of size N and M respectively and an element K. 
+// The task is to find the element that would be at the kth position of the final sorted array.
+
 int kthelement(vector<int>& arr1, vector<int> &arr2, int n, int m, int k){
     int i = 0, j = 0;
 
@@ -25,15 +28,15 @@ int kthelement(vector<int>& arr1, vector<int> &arr2, int n, int m, int k){
         }
     }
     if(i < n){
-        return (k + i - 1);
+        return arr1[k + i - 1];
     }
     else{
-        return (k + j - 1);
+        return arr2[k + j - 1];
     }
 }
 
 int main(){
-    
+    int n;
     cout<< "Enter size of first array : ";
     cin>>n;
 
