@@ -4,8 +4,8 @@
 
 using namespace std;
 
-// Given two sorted arrays arr1 and arr2 of size N and M respectively and an element K. 
-// The task is to find the element that would be at the kth position of the final sorted array.
+// Given two sorted arrays arr1 and arr2 of size N and M respectively and an element K.
+//  The task is to find the element that would be at the kth position of the final sorted array.
 
 int kthelement(vector<int>& arr1, vector<int> &arr2, int n, int m, int k){
     int i = 0, j = 0;
