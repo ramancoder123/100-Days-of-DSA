@@ -4,6 +4,8 @@
 
 using namespace std;
 
+// Reverse a string using stack
+
 string reverse(string str){
     stack<char> st;
     for(int i = 0;i<str.length();i++){
