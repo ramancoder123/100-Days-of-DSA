@@ -1,5 +1,7 @@
 #include <algorithm>
 #include <queue>
+#include <vector>
+
 int getKthLargest(vector<int> &arr, int k){
 	priority_queue<int, vector<int>, greater<int> >mini;
 
