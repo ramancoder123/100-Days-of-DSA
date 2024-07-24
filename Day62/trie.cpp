@@ -119,7 +119,7 @@ int main(){
     Trie *t = new Trie();
 
     t -> insertWord("ABCD");
-    t -> insertWord("RAmAN");
+    t -> insertWord("RAMAN");
     t -> insertWord("AJAy");
     t -> insertWord("OM");
     t -> insertWord("LISA");
