@@ -12,7 +12,7 @@ class Solution {
   public:
     bool isSafe(int x, int y, vector< vector< bool > > &visited,vector<vector<int>> &arr, int n){
         if((x >= 0 && x < n) && (y >= 0 && y < n) && (visited[x][y] != 1) && arr[x][y] == 1){
-            
+            return true;
         }
         else{
             return false;
