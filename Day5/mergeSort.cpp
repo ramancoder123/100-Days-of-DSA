@@ -6,7 +6,7 @@ void merge(vector<int> &arr, int n, int e, int s, int mid){
     int len1 = mid - s + 1;
     int len2 = e - mid;
 
-    vector<int> first(len1 );
+    vector<int> first(len1);
     vector<int> second(len2);
     
     int k = s;
